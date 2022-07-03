@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 import javax.sound.sampled.SourceDataLine;
 
-class Single_LinkedList {
+class Singly_LinkedList {
     static class Node {
         int data;
         Node next;
@@ -40,7 +40,7 @@ class Single_LinkedList {
 
 class Main {
     public static void main(String[] args) {
-        Single_LinkedList ll = new Single_LinkedList();
+        Singly_LinkedList ll = new Singly_LinkedList();
         ll.Creation(1);
         ll.Creation(2);
         ll.Creation(3);
